@@ -6,6 +6,7 @@
 用户分为两类：读者、图书馆管理员。图书馆管理员可以修改读者信息，修改书目信息，查看所有借还日志等；读者仅可以修改个人信息、借阅或归还书籍和查看自己的借还日志。
 
 ## 环境需要
+````
 1.运行环境：最好是java jdk 1.8，我们在这个平台上运行的。其他版本理论上也可以。
 
 2.IDE环境：IDEA，Eclipse,Myeclipse都可以。推荐IDEA;
@@ -13,14 +14,15 @@
 4.硬件环境：windows 7/8/10 1G内存以上；或者 Mac OS；
 5.是否Maven项目: 是；查看源码目录中是否包含pom.xml；若包含，则为maven项目，否则为非maven项目
 6.数据库：MySql 5.7版本；
-
+````
 ## 技术栈
 1. 后端：Spring SpringMVC MyBatis
 
 2. 前端：JSP+bootstrap+jQuery
 
 ## 使用说明
-1. 使用IDEA/Eclipse/MyEclipse导入项目，Eclipse/MyEclipse导入时，若为maven项目请选择maven;若为maven项目，导入成功后请执行maven clean;maven install命令，下载所需jar包；
+1. 使用IDEA/Eclipse/MyEclipse导入项目，Eclipse/MyEclipse导入时，若为maven项目请选择maven;
+若为maven项目，导入成功后请执行maven clean;maven install命令，下载所需jar包；
 
 2. 使用Navicat或者其它工具，在mysql中创建对应名称的数据库，并导入项目的sql文件；
 3. 将项目中db.properties配置文件中的数据库配置改为自己的配置
